@@ -6,6 +6,7 @@ import './App.css'
 import Addpet from './components/Addpet'
 import Searchpet from './components/Searchpet'
 import Deletepet from './components/Deletepet'
+import Viewpet from './components/Viewpet'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +16,7 @@ function App() {
       <Addpet />
       <Searchpet />
       <Deletepet />
+      <Viewpet />
     </>
   )
 }
